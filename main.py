@@ -43,7 +43,7 @@ class SourceChecker(object):
         self.text = text
         self.language = language
         self.cat_dict = defaultdict(list)
-        key = ''
+        key = 'AIzaSyDw8PY3xSI8X3DPvSu-DEd4x38rrPqZea0'
         self.engine = Google(license=key, throttle=0.5, language=None)
 
     def get_queries(self):
